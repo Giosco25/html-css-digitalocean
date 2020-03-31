@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.active{
+    margin-left: 30px;
+
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+
+}
+.navbar-default .navbar-nav>.active>a{
+    background-color: transparent;
+    color:#031b4e;
+    font-size: 14px;
+}
+.navbar-brand i{
+    color:#0069ff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar-default .navbar-right>li>a {
+    color: #031b4e;
+}
+
+.btn-default {
+    color: #0069ff;
+    background-color: transparent;
+    border-color: #0069ff;
+    margin-left: 787px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #031b4e;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover {
+    color:#555;
+}
