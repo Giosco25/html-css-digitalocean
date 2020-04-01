@@ -25,8 +25,9 @@
     margin-left: 20px;
 }
 .navbar-default .navbar-brand {
-    color: #777;
-    line-height: 0;
+    color: #0069ff;
+    font-weight: bold;
+    font-size: 23px;
 }
 
 .navbar-brand {
@@ -48,11 +49,17 @@
     font-size: 23px;
     margin-right: 7px;
 }
-
+.nav>li{
+    line-height: 3;
+}
+.navbar-default .navbar-right>li>a{
+    color: #0069ff;
+    border-radius: 5px;
+    border-color: 1px solid #0069ff;;
+}
 .btn-default {
     color: #0069ff;
     background-color: transparent;
-    border-color: #0069ff;
 
 }
 
@@ -93,9 +100,22 @@
     line-height: 0
 }
 /**jumbotron**/
+
+.jumbotron{
+    background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+
+}
 .jumbotron h1{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 55px;
+    color:#fff;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: 200;
+    color:#fff;
+    margin-top: 20px;
 }
 .title h1{
     padding-bottom: 15px;
@@ -112,9 +132,11 @@
 .btn-default{
     padding-right: 41px;
     padding-left: 33px;
+    color: #031b4e;
 }
 .form-btn{
     background-color: white;
+    margin-left: 75px;
 }
 .separatore{
     position: relative;
@@ -146,12 +168,35 @@
 .fa-github{
     margin-right: 16px;
 }
-.btn-default{
-    color:black;
-}
+
 
 .btn-default:hover{
     background-color: #d5e4f7;
     border: 1px solid rgba(0,105,255,.2);
     color:black;
+}
+.title h2{
+    font-size: 40px;
+    margin-bottom: 35px;
+    color:#031b4e;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+    background-color:#0069ff;
+    color:#fff;
+}
+
+
+.navbar-default .navbar-right>li>a.btn-blue{
+    color:#0069ff;
+}
+#small{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    color:black;
+}
+.first-btn{
+    margin-left: 20px;
 }
