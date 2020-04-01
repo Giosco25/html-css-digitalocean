@@ -95,3 +95,46 @@
     font-weight: bold;
     font-size: 40px;
 }
+.title h1{
+    padding-bottom: 15px;
+}
+.form-control{
+    margin-top: 11px;
+    padding: 20px 16px;
+}
+.second-btn{
+    padding-left: 52px;
+    padding-right: 43px;
+    margin-left: 70px;
+}
+.btn-default{
+    padding-right: 43px;
+    padding-left: 34px;
+}
+.form-btn{
+    background-color: white;
+}
+.separatore{
+    position: relative;
+
+}
+.separatore::before,
+.separatore::after{
+    content: '';
+    width: 34%;
+    height: 2px;
+    background-color: #e5e8ed;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.separatore::before {
+    left:0;
+}
+.separatore::after{
+    right:0;
+}
+.separatore p{
+    font-size: 18px;
+    color: #5b6987;
+}
