@@ -136,7 +136,6 @@
 }
 .form-btn{
     background-color: white;
-    margin-left: 75px;
 }
 .separatore{
     position: relative;
@@ -190,6 +189,7 @@
 
 .navbar-default .navbar-right>li>a.btn-blue{
     color:#0069ff;
+    margin-top: 10px;
 }
 #small{
     font-size: 14px;
@@ -199,4 +199,16 @@
 }
 .first-btn{
     margin-left: 20px;
+}
+/**features**/
+.blocchi{
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: red;
+}
+.images{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
 }
