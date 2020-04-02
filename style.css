@@ -225,7 +225,7 @@
 }
 /**deploy**/
 .blocchi-due{
-    background-color: green;
+    background-color: #fff;
     height: 350px;
 }
 .immagini{
@@ -257,4 +257,20 @@
 }
 .font{
     font-size: 24px;
+     color: #031b4e;
+
+}
+.icon{
+    font-size: 30px;
+    margin-top: 10px;
+    color: blue;
+}
+.right-bottom h3{
+    padding-top: 6px;
+}
+#deploy h2{
+    color: #031b4e;
+}
+#deploy p{
+    font-size: 18px;
 }
