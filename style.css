@@ -237,14 +237,17 @@
 .li-vertical {
     border-left: 2px solid #e5e8ed;
     list-style-type: none;
-    padding-left: 20px;
     line-height: 48px;
     float: left;
     font-size: 19px;
     line-height: 55px;
 }
+.li-vertical li{
+    padding-left: 20px;
+    margin-left: -2px;
+}
 .vertical-blue{
-    border-left-color: #0069ff;
+    border-left: 2px solid #0069ff;
 }
 .left-top{
     padding-left: 140px;
@@ -266,11 +269,19 @@
     color: blue;
 }
 .right-bottom h3{
-    padding-top: 6px;
+    padding-top: 12px;
 }
 #deploy h2{
     color: #031b4e;
 }
 #deploy p{
     font-size: 18px;
+}
+/**design**/
+#design{
+    margin-top: 295px;
+    background-color: #f3f5f9;
+}
+.screenshot{
+    margin-left: 70px;
 }
