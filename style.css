@@ -204,11 +204,22 @@
 .blocchi{
     height: 150px;
     margin-bottom: 20px;
-    background-color: red;
+    ;
 }
 .images{
-    width: 100%;
+    max-width: 70%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: auto;
+    height: 50%;
+}
+.text{
+    font-size: 20px;
+}
+#features{
+    background-color:#f3f5f9;
+}
+.features-link a{
+    color: #0069ff;
+    font-size: 17px;
+    text-decoration: underline;
 }
