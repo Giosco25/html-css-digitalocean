@@ -223,3 +223,38 @@
     font-size: 17px;
     text-decoration: underline;
 }
+/**deploy**/
+.blocchi-due{
+    background-color: green;
+    height: 350px;
+}
+.immagini{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.li-vertical {
+    border-left: 2px solid #e5e8ed;
+    list-style-type: none;
+    padding-left: 20px;
+    line-height: 48px;
+    float: left;
+    font-size: 19px;
+    line-height: 55px;
+}
+.vertical-blue{
+    border-left-color: #0069ff;
+}
+.left-top{
+    padding-left: 140px;
+}
+.left-bottom{
+    padding-left: 140px;
+}
+.right-bottom{
+    padding-top:14px;
+}
+.font{
+    font-size: 24px;
+}
