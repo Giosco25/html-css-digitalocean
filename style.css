@@ -290,6 +290,7 @@
 .icon-top{
     font-size: 20px;
 }
+
 /**Tables**/
 #tables{
     background: #031b4e url(img/data-center-map.svg);
@@ -310,4 +311,27 @@ tr{
 .table>tbody>tr>td{
     border-bottom: 1px solid #ddd;
     border-top: none;
+}
+/**started**/
+.btn-lg{
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: white;
+    color: #0069ff;
+    margin-top: 11px;
+}
+.btn-lg:hover{
+    background-color: hsla(0,0%,100%,.8);
+    border: none;
+    color: #0069ff;
+}
+.start{
+    background: #0248ff url(img/bg-home.jpg);
+    margin-top: 60px;
+    padding-top: 20px;
+}
+.start h3{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
 }
