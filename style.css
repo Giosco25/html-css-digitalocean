@@ -293,4 +293,21 @@
 /**Tables**/
 #tables{
     background: #031b4e url(img/data-center-map.svg);
+    margin-top: 60px;
+}
+.title h1{
+    color: #fff;
+    padding-bottom: 40px;
+    padding-top: 100px;
+}
+.table p{
+    color:lightblue;
+
+}
+tr{
+    color:#fff;
+}
+.table>tbody>tr>td{
+    border-bottom: 1px solid #ddd;
+    border-top: none;
 }
