@@ -43,6 +43,15 @@
     color:#031b4e;
     font-size: 17px;
 }
+.navbar-default .navbar-nav>li>a {
+    color: #031b4e;
+    font-size: 17px;
+    padding-top: 20px;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: transparent;
+}
 .navbar-brand i{
     color:#0069ff;
     font-weight: bold;
@@ -63,15 +72,6 @@
 
 }
 
-.navbar-default .navbar-nav>li>a {
-    color: #031b4e;
-    font-size: 17px;
-    padding-top: 20px;
-}
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover {
-    background-color: transparent;
-}
 .btn-default:hover{
     color:white;
     background-color: #0069ff;
@@ -284,4 +284,18 @@
 }
 .screenshot{
     margin-left: 70px;
+}
+/**Business**/
+.color h2{
+    font-size: 37px;
+    color: #031b4e;
+}
+.color h3{
+    color: #031b4e;
+}
+.link{
+    color: #0069ff;
+}
+.icon-top{
+    font-size: 20px;
 }
