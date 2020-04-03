@@ -201,16 +201,12 @@
     margin-left: 20px;
 }
 /**features**/
-.blocchi{
-    height: 100px;
-    margin-bottom: 20px;
-    ;
-}
+
 .images{
-    max-width: 70%;
+    max-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50%;
+    height: auto;
 }
 .text{
     font-size: 20px;
@@ -224,10 +220,6 @@
     text-decoration: underline;
 }
 /**deploy**/
-.blocchi-due{
-    background-color: #fff;
-    height: 100px;
-}
 .immagini{
     width: 100%;
     background-size: cover;
@@ -279,7 +271,6 @@
 }
 /**design**/
 #design{
-    margin-top: 295px;
     background-color: #f3f5f9;
 }
 .screenshot{
@@ -298,4 +289,8 @@
 }
 .icon-top{
     font-size: 20px;
+}
+/**Tables**/
+#tables{
+    background: #031b4e url(img/data-center-map.svg);
 }
